@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2229F0DF1DB84D9600EC85D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229F0DE1DB84D9600EC85D6 /* AppDelegate.swift */; };
+		2229F0E11DB84D9600EC85D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229F0E01DB84D9600EC85D6 /* ViewController.swift */; };
+		2229F0E41DB84D9600EC85D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229F0E21DB84D9600EC85D6 /* Main.storyboard */; };
+		2229F0E61DB84D9600EC85D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2229F0E51DB84D9600EC85D6 /* Assets.xcassets */; };
+		2229F0E91DB84D9600EC85D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2229F0E71DB84D9600EC85D6 /* LaunchScreen.storyboard */; };
+		2229F0F41DB84D9600EC85D6 /* LusidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229F0F31DB84D9600EC85D6 /* LusidTests.swift */; };
+		2229F0FF1DB84D9600EC85D6 /* LusidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2229F0FE1DB84D9600EC85D6 /* LusidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2229F0F01DB84D9600EC85D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229F0D31DB84D9500EC85D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229F0DA1DB84D9500EC85D6;
+			remoteInfo = Lusid;
+		};
+		2229F0FB1DB84D9600EC85D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2229F0D31DB84D9500EC85D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2229F0DA1DB84D9500EC85D6;
+			remoteInfo = Lusid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2229F0DB1DB84D9600EC85D6 /* Lusid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lusid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229F0DE1DB84D9600EC85D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2229F0E01DB84D9600EC85D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2229F0E31DB84D9600EC85D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2229F0E51DB84D9600EC85D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2229F0E81DB84D9600EC85D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2229F0EA1DB84D9600EC85D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229F0EF1DB84D9600EC85D6 /* LusidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LusidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229F0F31DB84D9600EC85D6 /* LusidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LusidTests.swift; sourceTree = "<group>"; };
+		2229F0F51DB84D9600EC85D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2229F0FA1DB84D9600EC85D6 /* LusidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LusidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2229F0FE1DB84D9600EC85D6 /* LusidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LusidUITests.swift; sourceTree = "<group>"; };
+		2229F1001DB84D9600EC85D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2229F0D81DB84D9500EC85D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229F0EC1DB84D9600EC85D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229F0F71DB84D9600EC85D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2229F0D21DB84D9500EC85D6 = {
+			isa = PBXGroup;
+			children = (
+				2229F0DD1DB84D9600EC85D6 /* Lusid */,
+				2229F0F21DB84D9600EC85D6 /* LusidTests */,
+				2229F0FD1DB84D9600EC85D6 /* LusidUITests */,
+				2229F0DC1DB84D9600EC85D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2229F0DC1DB84D9600EC85D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2229F0DB1DB84D9600EC85D6 /* Lusid.app */,
+				2229F0EF1DB84D9600EC85D6 /* LusidTests.xctest */,
+				2229F0FA1DB84D9600EC85D6 /* LusidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2229F0DD1DB84D9600EC85D6 /* Lusid */ = {
+			isa = PBXGroup;
+			children = (
+				2229F0DE1DB84D9600EC85D6 /* AppDelegate.swift */,
+				2229F0E01DB84D9600EC85D6 /* ViewController.swift */,
+				2229F0E21DB84D9600EC85D6 /* Main.storyboard */,
+				2229F0E51DB84D9600EC85D6 /* Assets.xcassets */,
+				2229F0E71DB84D9600EC85D6 /* LaunchScreen.storyboard */,
+				2229F0EA1DB84D9600EC85D6 /* Info.plist */,
+			);
+			path = Lusid;
+			sourceTree = "<group>";
+		};
+		2229F0F21DB84D9600EC85D6 /* LusidTests */ = {
+			isa = PBXGroup;
+			children = (
+				2229F0F31DB84D9600EC85D6 /* LusidTests.swift */,
+				2229F0F51DB84D9600EC85D6 /* Info.plist */,
+			);
+			path = LusidTests;
+			sourceTree = "<group>";
+		};
+		2229F0FD1DB84D9600EC85D6 /* LusidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2229F0FE1DB84D9600EC85D6 /* LusidUITests.swift */,
+				2229F1001DB84D9600EC85D6 /* Info.plist */,
+			);
+			path = LusidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2229F0DA1DB84D9500EC85D6 /* Lusid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229F1031DB84D9600EC85D6 /* Build configuration list for PBXNativeTarget "Lusid" */;
+			buildPhases = (
+				2229F0D71DB84D9500EC85D6 /* Sources */,
+				2229F0D81DB84D9500EC85D6 /* Frameworks */,
+				2229F0D91DB84D9500EC85D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lusid;
+			productName = Lusid;
+			productReference = 2229F0DB1DB84D9600EC85D6 /* Lusid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2229F0EE1DB84D9600EC85D6 /* LusidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229F1061DB84D9600EC85D6 /* Build configuration list for PBXNativeTarget "LusidTests" */;
+			buildPhases = (
+				2229F0EB1DB84D9600EC85D6 /* Sources */,
+				2229F0EC1DB84D9600EC85D6 /* Frameworks */,
+				2229F0ED1DB84D9600EC85D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229F0F11DB84D9600EC85D6 /* PBXTargetDependency */,
+			);
+			name = LusidTests;
+			productName = LusidTests;
+			productReference = 2229F0EF1DB84D9600EC85D6 /* LusidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2229F0F91DB84D9600EC85D6 /* LusidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2229F1091DB84D9600EC85D6 /* Build configuration list for PBXNativeTarget "LusidUITests" */;
+			buildPhases = (
+				2229F0F61DB84D9600EC85D6 /* Sources */,
+				2229F0F71DB84D9600EC85D6 /* Frameworks */,
+				2229F0F81DB84D9600EC85D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2229F0FC1DB84D9600EC85D6 /* PBXTargetDependency */,
+			);
+			name = LusidUITests;
+			productName = LusidUITests;
+			productReference = 2229F0FA1DB84D9600EC85D6 /* LusidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2229F0D31DB84D9500EC85D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lusidity;
+				TargetAttributes = {
+					2229F0DA1DB84D9500EC85D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2229F0EE1DB84D9600EC85D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2229F0DA1DB84D9500EC85D6;
+					};
+					2229F0F91DB84D9600EC85D6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2229F0DA1DB84D9500EC85D6;
+					};
+				};
+			};
+			buildConfigurationList = 2229F0D61DB84D9500EC85D6 /* Build configuration list for PBXProject "Lusid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2229F0D21DB84D9500EC85D6;
+			productRefGroup = 2229F0DC1DB84D9600EC85D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2229F0DA1DB84D9500EC85D6 /* Lusid */,
+				2229F0EE1DB84D9600EC85D6 /* LusidTests */,
+				2229F0F91DB84D9600EC85D6 /* LusidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2229F0D91DB84D9500EC85D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229F0E91DB84D9600EC85D6 /* LaunchScreen.storyboard in Resources */,
+				2229F0E61DB84D9600EC85D6 /* Assets.xcassets in Resources */,
+				2229F0E41DB84D9600EC85D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229F0ED1DB84D9600EC85D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229F0F81DB84D9600EC85D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2229F0D71DB84D9500EC85D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229F0E11DB84D9600EC85D6 /* ViewController.swift in Sources */,
+				2229F0DF1DB84D9600EC85D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229F0EB1DB84D9600EC85D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229F0F41DB84D9600EC85D6 /* LusidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2229F0F61DB84D9600EC85D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2229F0FF1DB84D9600EC85D6 /* LusidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2229F0F11DB84D9600EC85D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229F0DA1DB84D9500EC85D6 /* Lusid */;
+			targetProxy = 2229F0F01DB84D9600EC85D6 /* PBXContainerItemProxy */;
+		};
+		2229F0FC1DB84D9600EC85D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2229F0DA1DB84D9500EC85D6 /* Lusid */;
+			targetProxy = 2229F0FB1DB84D9600EC85D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2229F0E21DB84D9600EC85D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229F0E31DB84D9600EC85D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2229F0E71DB84D9600EC85D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2229F0E81DB84D9600EC85D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2229F1011DB84D9600EC85D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2229F1021DB84D9600EC85D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2229F1041DB84D9600EC85D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lusid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lusidity.iOS.Lusid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2229F1051DB84D9600EC85D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lusid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lusidity.iOS.Lusid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2229F1071DB84D9600EC85D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LusidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.vaporware.iOS.LusidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lusid.app/Lusid";
+			};
+			name = Debug;
+		};
+		2229F1081DB84D9600EC85D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LusidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.vaporware.iOS.LusidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lusid.app/Lusid";
+			};
+			name = Release;
+		};
+		2229F10A1DB84D9600EC85D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LusidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.vaporware.iOS.LusidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lusid;
+			};
+			name = Debug;
+		};
+		2229F10B1DB84D9600EC85D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LusidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.vaporware.iOS.LusidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Lusid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2229F0D61DB84D9500EC85D6 /* Build configuration list for PBXProject "Lusid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229F1011DB84D9600EC85D6 /* Debug */,
+				2229F1021DB84D9600EC85D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2229F1031DB84D9600EC85D6 /* Build configuration list for PBXNativeTarget "Lusid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229F1041DB84D9600EC85D6 /* Debug */,
+				2229F1051DB84D9600EC85D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229F1061DB84D9600EC85D6 /* Build configuration list for PBXNativeTarget "LusidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229F1071DB84D9600EC85D6 /* Debug */,
+				2229F1081DB84D9600EC85D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2229F1091DB84D9600EC85D6 /* Build configuration list for PBXNativeTarget "LusidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2229F10A1DB84D9600EC85D6 /* Debug */,
+				2229F10B1DB84D9600EC85D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2229F0D31DB84D9500EC85D6 /* Project object */;
+}
